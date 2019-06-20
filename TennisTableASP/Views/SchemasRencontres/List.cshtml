@@ -1,0 +1,6 @@
+﻿@model TennisTableASP.ViewModels.SchemasRencontresViewModel
+
+<div class="GroupeForm">
+    @Html.LabelFor(m => m.SrChoisi)
+    @Html.DropDownListFor(m => m.SrChoisi, Model.SrItems)
+</div>

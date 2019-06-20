@@ -1,0 +1,538 @@
+﻿@using System.Diagnostics
+@using System.Text.RegularExpressions
+@model TennisTableASP.ViewModels.MatchsViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Matchs - Édition";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="Administratif">
+        <div class="GroupeForm">
+            @Html.HiddenFor(model => model.Matchs.MatchId, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.NumMatch, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.NumMatch, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.NumMatch, "", new { @class = "text-danger" })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.JugeArbitre, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.JugeArbitre, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.JugeArbitre, "", new { @class = "text-danger" })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(m => m.SeriesVm.SerieChoisi)
+            @Html.DropDownListFor(m => m.SeriesVm.SerieChoisi, Model.SeriesVm.SerieItems)
+            @Html.ValidationMessageFor(model => model.SeriesVm.SerieChoisi, "", new { @class = "text-danger" })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.Division, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.Division, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.Division, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="Administratif">
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.Date, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.Date, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.HeureDebut, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.HeureDebut, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.HeureDebut, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Matchs.HeureFin, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Matchs.HeureFin, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Matchs.HeureFin, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="Equipe">
+        <div class="Visite">
+            <div class="GroupeForm">
+                @Html.LabelFor(m => m.ClubsVeVm.ClubChoisi)
+                @Html.DropDownListFor(m => m.ClubsVeVm.ClubChoisi, Model.ClubsVeVm.ClubItems)
+                @Html.ValidationMessageFor(model => model.ClubsVeVm.ClubChoisi, "", new { @class = "text-danger" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Matchs.LettreVisite, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.Matchs.LettreVisite, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Matchs.LettreVisite, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="Visiteur">
+            <div class="GroupeForm">
+                @Html.LabelFor(m => m.ClubsVrVm.ClubChoisi)
+                @Html.DropDownListFor(m => m.ClubsVrVm.ClubChoisi, Model.ClubsVrVm.ClubItems)
+                @Html.ValidationMessageFor(model => model.ClubsVrVm.ClubChoisi, "", new { @class = "text-danger" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Matchs.LettreVisiteur, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.Matchs.LettreVisiteur, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Matchs.LettreVisiteur, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="Equipe">
+        <div class="JoueursVisite">
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur1Ve.JoueurChoisi, "J1Visite", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur1Ve.JoueurChoisi, Model.Joueur2Ve.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur1Ve.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur1Ve", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur2Ve.JoueurChoisi, "J2Visite", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur2Ve.JoueurChoisi, Model.Joueur2Ve.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur2Ve.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur2Ve", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur3Ve.JoueurChoisi, "J3Visite", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur3Ve.JoueurChoisi, Model.Joueur3Ve.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur3Ve.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur3Ve", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur4Ve.JoueurChoisi, "J4Visite", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur4Ve.JoueurChoisi, Model.Joueur4Ve.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur4Ve.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur4Ve", "", new { disabled = "disabled" })
+                
+            </div>
+        </div>
+        <div class="JoueursVisiteur">
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur1Vr.JoueurChoisi, "J1Visiteur", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur1Vr.JoueurChoisi, Model.Joueur1Vr.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur1Vr.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur1Vr", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur2Vr.JoueurChoisi, "J2Visiteur", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur2Vr.JoueurChoisi, Model.Joueur2Vr.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur2Vr.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur2Vr", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur3Vr.JoueurChoisi, "J3Visiteur", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur3Vr.JoueurChoisi, Model.Joueur3Vr.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur3Vr.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur3Vr", "", new { disabled = "disabled" })
+            </div>
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.Joueur4Vr.JoueurChoisi, "J4Visiteur", htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.DropDownListFor(m => m.Joueur4Vr.JoueurChoisi, Model.Joueur4Vr.JoueurItems)
+                @Html.ValidationMessageFor(model => model.Joueur4Vr.JoueurChoisi, "", new { @class = "text-danger" })
+                @Html.TextBox("ClassJoueur4Vr", "", new { disabled = "disabled" })
+            </div>
+        </div>
+    </div>
+    <div class="Administratif">
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.CapitaineVe.JoueurChoisi, "Capitaine Visite", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownListFor(m => m.CapitaineVe.JoueurChoisi, new SelectList(Enumerable.Empty<SelectListItem>(), "JoueurId", "JoueurText", new { @class = "form-control" }))
+            @Html.ValidationMessageFor(model => model.CapitaineVe.JoueurChoisi, "", new { @class = "text-danger" })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.CapitaineVr.JoueurChoisi, "Capitaine Visiteur", htmlAttributes: new {@class = "control-label col-md-2"})
+            @Html.DropDownListFor(m => m.CapitaineVr.JoueurChoisi, new SelectList(Enumerable.Empty<SelectListItem>(), "JoueurId", "JoueurText", new {@class = "form-control"}))
+            @Html.ValidationMessageFor(model => model.CapitaineVr.JoueurChoisi, "", new {@class = "text-danger"})
+        </div>
+    </div>
+    <hr />
+                    <div class="Scores">
+            <table class="heavyTable">
+                <thead>
+                    <tr>
+                        <th>@Html.Label("Joueur visité")</th>
+                        <th>@Html.Label("Joueur visiteur")</th>
+                        <th colspan="2">@Html.Label("Set 1")</th>
+                        <th colspan="2">@Html.Label("Set 2")</th>
+                        <th colspan="2">@Html.Label("Set 3")</th>
+                        <th colspan="2">@Html.Label("Set 4")</th>
+                        <th colspan="2">@Html.Label("Set 5")</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var x in Model.ListeRencontres)
+                    {
+                        <tr id="@x.Sr.Ordre">
+                            @switch (x.Sr.JoueurVisite)
+                    {
+                        case 1:
+                                    <td>@Model.Matchs.JVe1.Nom @Html.Raw(" ") @Model.Matchs.JVe1.Prenom</td>
+                                    break;
+                                case 2:
+                                    <td>@Model.Matchs.JVe2.Nom @Html.Raw(" ") @Model.Matchs.JVe2.Prenom</td>
+                                    break;
+                                case 3:
+                                    <td>@Model.Matchs.JVe3.Nom @Html.Raw(" ") @Model.Matchs.JVe3.Prenom</td>
+                                    break;
+                                case 4:
+                                    <td>@Model.Matchs.JVe4.Nom @Html.Raw(" ") @Model.Matchs.JVe4.Prenom</td>
+                                    break;
+                            }
+                            @switch (x.Sr.JoueurVisiteur)
+                    {
+                        case 1:
+                                    <td>@Model.Matchs.JVr1.Nom @Html.Raw(" ") @Model.Matchs.JVr1.Prenom</td>
+                                    break;
+                                case 2:
+                                    <td>@Model.Matchs.JVr2.Nom @Html.Raw(" ") @Model.Matchs.JVr2.Prenom</td>
+                                    break;
+                                case 3:
+                                    <td>@Model.Matchs.JVr3.Nom @Html.Raw(" ") @Model.Matchs.JVr3.Prenom</td>
+                                    break;
+                                case 4:
+                                    <td>@Model.Matchs.JVr4.Nom @Html.Raw(" ") @Model.Matchs.JVr4.Prenom</td>
+                                    break;
+                            }
+
+                            @{string[] scores = null;
+                                if (x.Score != null)
+                                {
+                                    scores = Regex.Split(x.Score, @"\D+");
+                                }
+                            }
+                            @for (int cpt = 0; cpt < 10; cpt++)
+                    {
+                        if (scores != null && cpt < scores.Length && scores[cpt].Length != 0)
+                        {
+                                    <td tabindex="@x.Sr.Ordre + cpt">
+                                        @Html.TextBox("Set" + x.Sr.Ordre + cpt, scores[cpt], new
+                           {
+                               @maxlength = "2",
+                               @class = "form-control valid span1",
+                               @data_val = "true",
+                               @data_val_regex = "Seulement des nombres",
+                               @data_val_regex_pattern = "^\\d{1,2}$"
+                           })
+                                    </td>
+
+                                }
+                                else
+                                {
+                                    <td tabindex="@x.Sr.Ordre + cpt">
+                                        @Html.TextBox("Set" + x.Sr.Ordre + cpt, 0, new { @maxlength = "2", @class = "span1" })
+                                    </td>
+                                }
+                            }
+                        </tr>
+                                }
+                </tbody>
+            </table>
+        </div>
+                                        <div class="actions">
+                                            <input type="submit" value="Sauver" class="btn btn-succes btn-default" />
+                                        </div>
+}
+
+<script>
+    function CapitaineVisiteurList() {
+        $("#CapitaineVr_JoueurChoisi").html("");
+        if ($("#Joueur1Vr_JoueurChoisi option:selected").text() == "Aucun joueur dans ce club") {
+            $("#CapitaineVr_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+        }
+        else {
+            var clone = $("#Joueur1Vr_JoueurChoisi option:selected").clone();
+            $("#CapitaineVr_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur2Vr_JoueurChoisi option:selected").clone();
+            $("#CapitaineVr_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur3Vr_JoueurChoisi option:selected").clone();
+            $("#CapitaineVr_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur4Vr_JoueurChoisi option:selected").clone();
+            $("#CapitaineVr_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            if (@Model.CapitaineVr.JoueurChoisi != 0) {
+                $("#CapitaineVr_JoueurChoisi").val(@Model.CapitaineVr.JoueurChoisi);
+            }
+        }
+    }
+
+    function CapitaineVisiteList() {
+        $("#CapitaineVe_JoueurChoisi").html("");
+        if ($("#Joueur1Ve_JoueurChoisi option:selected").text() == "Aucun joueur dans ce club") {
+            $("#CapitaineVe_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+        }
+        else {
+            var clone = $("#Joueur1Ve_JoueurChoisi option:selected").clone();
+            $("#CapitaineVe_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur2Ve_JoueurChoisi option:selected").clone();
+            $("#CapitaineVe_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur3Ve_JoueurChoisi option:selected").clone();
+            $("#CapitaineVe_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            clone = $("#Joueur4Ve_JoueurChoisi option:selected").clone();
+            $("#CapitaineVe_JoueurChoisi").append($('<option></option>').val($(clone).val()).html($(clone).text()));
+            if (@Model.CapitaineVe.JoueurChoisi != 0) {
+                $("#CapitaineVe_JoueurChoisi").val(@Model.CapitaineVe.JoueurChoisi);
+            }
+        }
+    }
+
+    function JoueursVeClubListe() {
+        var club = $("#ClubsVeVm_ClubChoisi option:selected").val();
+        $.ajax({
+            url: "/Joueurs/ListeJoueursClubs/" + club,
+            type: "GET",
+            dataType: "JSON",
+            success: function (joueurs) {
+                $("#Joueur1Ve_JoueurChoisi").html("");
+                $("#Joueur2Ve_JoueurChoisi").html("");
+                $("#Joueur3Ve_JoueurChoisi").html("");
+                $("#Joueur4Ve_JoueurChoisi").html("");
+                if (joueurs.length == 0) {
+                    $("#Joueur1Ve_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur2Ve_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur3Ve_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur4Ve_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                } else
+                {
+                    $.each(joueurs,
+                        function (i, joueur) {
+                            $("#Joueur1Ve_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur2Ve_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur3Ve_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur4Ve_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                        });
+                    if (@Model.Joueur1Ve.JoueurChoisi != 0) {
+                        $("#Joueur1Ve_JoueurChoisi").val(@Model.Joueur1Ve.JoueurChoisi);
+                    }
+                    if (@Model.Joueur2Ve.JoueurChoisi != 0) {
+                        $("#Joueur2Ve_JoueurChoisi").val(@Model.Joueur2Ve.JoueurChoisi);
+                    }
+                    if (@Model.Joueur3Ve.JoueurChoisi != 0) {
+                        $("#Joueur3Ve_JoueurChoisi").val(@Model.Joueur3Ve.JoueurChoisi);
+                    }
+                    if (@Model.Joueur4Ve.JoueurChoisi != 0) {
+                        $("#Joueur4Ve_JoueurChoisi").val(@Model.Joueur4Ve.JoueurChoisi);
+                    }
+                }
+                CapitaineVisiteList();
+            }
+        });
+    };
+
+    function JoueursVrClubListe() {
+        var club = $("#ClubsVrVm_ClubChoisi option:selected").val();
+        $.ajax({
+            url: "/Joueurs/ListeJoueursClubs/" + club,
+            type: "GET",
+            dataType: "JSON",
+            success: function (joueurs) {
+                $("#Joueur1Vr_JoueurChoisi").html("");
+                $("#Joueur2Vr_JoueurChoisi").html("");
+                $("#Joueur3Vr_JoueurChoisi").html("");
+                $("#Joueur4Vr_JoueurChoisi").html("");
+                if (joueurs.length == 0) {
+                    $("#Joueur1Vr_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur2Vr_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur3Vr_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                    $("#Joueur4Vr_JoueurChoisi").append($('<option></option>').html("Aucun joueur dans ce club"));
+                } else {
+                    $.each(joueurs,
+                        function (i, joueur) {
+                            $("#Joueur1Vr_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur2Vr_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur3Vr_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                            $("#Joueur4Vr_JoueurChoisi").append($('<option></option>').val(joueur.JoueurId)
+                                .html(joueur.Prenom + " " + joueur.Nom)
+                                .html(joueur.JoueurNom));
+                        });
+                    if (@Model.Joueur1Vr.JoueurChoisi != 0) {
+                        $("#Joueur1Vr_JoueurChoisi").val(@Model.Joueur1Vr.JoueurChoisi);
+                    }
+                    if (@Model.Joueur2Vr.JoueurChoisi != 0) {
+                        $("#Joueur2Vr_JoueurChoisi").val(@Model.Joueur2Vr.JoueurChoisi);
+                    }
+                    if (@Model.Joueur3Vr.JoueurChoisi != 0) {
+                        $("#Joueur3Vr_JoueurChoisi").val(@Model.Joueur3Vr.JoueurChoisi);
+                    }
+                    if (@Model.Joueur4Vr.JoueurChoisi != 0) {
+                        $("#Joueur4Vr_JoueurChoisi").val(@Model.Joueur4Vr.JoueurChoisi);
+                    }
+                }
+                CapitaineVisiteurList();
+            }
+        });
+    };
+    function ClassementJoueur(joueur, visit) {
+        var id;
+        if (visit == "Visite") {
+            switch(joueur) {
+                case "J1":
+                    id = $("#Joueur1Ve_JoueurChoisi option:selected").val();
+                    break;
+                case "J2":
+                    id = $("#Joueur2Ve_JoueurChoisi option:selected").val();
+                    break;
+                case "J3":
+                    id = $("#Joueur3Ve_JoueurChoisi option:selected").val();
+                    break;
+                case "J4":
+                    id = $("#Joueur4Ve_JoueurChoisi option:selected").val();
+                    break;
+            }
+        } else if (visit == "Visiteur") {
+            switch (joueur) {
+                case "J1":
+                    id = $("#Joueur1Vr_JoueurChoisi option:selected").val();
+                    break;
+                case "J2":
+                    id = $("#Joueur2Vr_JoueurChoisi option:selected").val();
+                    break;
+                case "J3":
+                    id = $("#Joueur3Vr_JoueurChoisi option:selected").val();
+                    break;
+                case "J4":
+                    id = $("#Joueur4Vr_JoueurChoisi option:selected").val();
+                    break;
+            }
+        }
+        else{
+
+        }
+        $.ajax({
+            url: "/Joueurs/ClassementJoueur/" + id,
+            type: "GET",
+            dataType: "JSON",
+            success: function (classement) {
+                if (classement.length == 0) {
+                    if (visit == "Visite") {
+                        switch (joueur) {
+                            case "J1":
+                                $("#ClassJoueur1Ve").val("");
+                                break;
+                            case "J2":
+                                $("#ClassJoueur2Ve").val("");
+                                break;
+                            case "J3":
+                                $("#ClassJoueur3Ve").val("");
+                                break;
+                            case "J4":
+                                $("#ClassJoueur4Ve").val("");
+                                break;
+                        }
+                    } else if (visit == "Visiteur") {
+                        switch (joueur) {
+                            case "J1":
+                                $("#ClassJoueur1Vr").val("");
+                                break;
+                            case "J2":
+                                $("#ClassJoueur2Vr").val("");
+                                break;
+                            case "J3":
+                                $("#ClassJoueur3Vr").val("");
+                                break;
+                            case "J4":
+                                $("#ClassJoueur4Vr").val("");
+                                break;
+                        }
+                    }
+                } else {
+                    if (visit == "Visite") {
+                        switch (joueur) {
+                            case "J1":
+                                $("#ClassJoueur1Ve").val(classement);
+                                break;
+                            case "J2":
+                                $("#ClassJoueur2Ve").val(classement);
+                                break;
+                            case "J3":
+                                $("#ClassJoueur3Ve").val(classement);
+                                break;
+                            case "J4":
+                                $("#ClassJoueur4Ve").val(classement);
+                                break;
+                        }
+                    }
+                    else if (visit == "Visiteur") {
+                        switch (joueur) {
+                            case "J1":
+                                $("#ClassJoueur1Vr").val(classement);
+                                break;
+                            case "J2":
+                                $("#ClassJoueur2Vr").val(classement);
+                                break;
+                            case "J3":
+                                $("#ClassJoueur3Vr").val(classement);
+                                break;
+                            case "J4":
+                                $("#ClassJoueur4Vr").val(classement);
+                                break;
+                        }
+                    }
+                }
+            }
+        });
+    };
+    $("#ClubsVeVm_ClubChoisi").change(function () { JoueursVeClubListe() });
+    $("#ClubsVrVm_ClubChoisi").change(function () { JoueursVrClubListe() });
+    $("#Joueur1Vr_JoueurChoisi").change(function () {
+        CapitaineVisiteurList();
+        ClassementJoueur("J1","Visiteur");
+    });
+    $("#Joueur2Vr_JoueurChoisi").change(function() {
+        CapitaineVisiteurList();
+        ClassementJoueur("J2", "Visiteur");
+    });
+    $("#Joueur3Vr_JoueurChoisi").change(function() {
+        CapitaineVisiteurList();
+        ClassementJoueur("J3", "Visiteur");
+    });
+    $("#Joueur4Vr_JoueurChoisi").change(function() {
+        CapitaineVisiteurList();
+        ClassementJoueur("J4", "Visiteur");
+    });
+    $("#Joueur1Ve_JoueurChoisi").change(function() {
+        CapitaineVisiteList();
+        ClassementJoueur("J1", "Visite");
+    });
+    $("#Joueur2Ve_JoueurChoisi").change(function() {
+        CapitaineVisiteList();
+        ClassementJoueur("J2", "Visite");
+    });
+    $("#Joueur3Ve_JoueurChoisi").change(function() {
+        CapitaineVisiteList();
+        ClassementJoueur("J3", "Visite");
+    });
+    $("#Joueur4Ve_JoueurChoisi").change(function() {
+        CapitaineVisiteList();
+        ClassementJoueur("J4", "Visite");
+    });
+    window.onload = function() {
+        JoueursVeClubListe();
+        JoueursVrClubListe();
+        CapitaineVisiteurList();
+        CapitaineVisiteList();
+        ClassementJoueur("J1", "Visite");
+        ClassementJoueur("J2", "Visite");
+        ClassementJoueur("J3", "Visite");
+        ClassementJoueur("J4", "Visite");
+        ClassementJoueur("J1", "Visiteur");
+        ClassementJoueur("J2", "Visiteur");
+        ClassementJoueur("J3", "Visiteur");
+        ClassementJoueur("J4", "Visiteur");
+    }
+</script>

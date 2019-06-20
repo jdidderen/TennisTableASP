@@ -1,0 +1,36 @@
+﻿@model TennisTableASP.Models.Series
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Séries - Édition";
+}
+    
+    
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="GroupeForm">
+                @Html.LabelFor(model => model.SerieId, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.TextBoxFor(model => model.SerieId, new { disabled = "disabled" })
+            </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Denomination, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Denomination, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Denomination, "", new { @class = "text-danger" })
+        </div>
+        <div class="GroupeForm">
+            @Html.LabelFor(model => model.Type, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownListFor(model => model.Type, new List< SelectListItem>
+{
+                new SelectListItem { Text = "Messieurs", Value = "Messieurs" },
+                new SelectListItem { Text = "Dames", Value = "Dames" },
+                new SelectListItem { Text = "Vétérans", Value = "Veterans" },
+            })
+            @Html.ValidationMessageFor(model => model.Type, "", new { @class = "text-danger" })
+        </div>
+
+                <div class="actions">
+                    <input type="submit" value="Sauver" class="btn btn-succes btn-default" />
+                </div>
+    }

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\didde\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\didde\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TennisTableASP.1817586508.00" t="ExcludeRecursive" />
+    <e p="C:\Users\didde\source\repos\TennisTableASP\TennisTableASP" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\csc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\desktop.ini" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\System.Collections.Immutable.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\System.Reflection.Metadata.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\vbc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" t="Include" />
+      </e>
+      <e p="TennisTableASP" t="IncludeRecursive">
+        <e p="App_Browsers" t="Include">
+          <e p="qt.browser" t="Include" />
+        </e>
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="ApplicationInsights.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap-responsive.css" t="Include" />
+            <e p="bootstrap.css" t="Include" />
+            <e p="fonts" t="Include">
+              <e p="BebasNeue-webfont.eot" t="Include" />
+              <e p="BebasNeue-webfont.svg" t="Include" />
+              <e p="BebasNeue-webfont.ttf" t="Include" />
+              <e p="BebasNeue-webfont.woff" t="Include" />
+              <e p="Dharma Type Font License.txt" t="Include" />
+            </e>
+            <e p="hover.css" t="Include" />
+            <e p="icons-color.css" t="Include" />
+            <e p="icons.css" t="Include" />
+            <e p="parallax-slider.css" t="Include" />
+            <e p="social-icons.css" t="Include" />
+            <e p="style.css" t="Include" />
+          </e>
+          <e p="Images" t="Include">
+            <e p="arrows.png" t="Include" />
+            <e p="bg-grey.png" t="Include" />
+            <e p="bg-grey2.png" t="Include" />
+            <e p="bg-grey3.png" t="Include" />
+            <e p="bg-k.png" t="Include" />
+            <e p="bg-k10.png" t="Include" />
+            <e p="bg-k20.png" t="Include" />
+            <e p="bg-repeat.jpg" t="Include" />
+            <e p="glyphicons-halflings-white.png" t="Include" />
+            <e p="glyphicons-halflings.png" t="Include" />
+            <e p="icons" t="Include">
+              <e p="eject.png" t="Include" />
+              <e p="glyphicons-mini-white.png" t="Include" />
+              <e p="glyphicons-mini.png" t="Include" />
+              <e p="glyphicons-white.png" t="Include" />
+              <e p="glyphicons.png" t="Include" />
+              <e p="green" t="Include">
+                <e p="glyphicons-mini.png" t="Include" />
+                <e p="glyphicons.png" t="Include" />
+              </e>
+              <e p="loading.gif" t="Include" />
+              <e p="logo.png" t="Include" />
+              <e p="search.png" t="Include" />
+              <e p="social" t="Include">
+                <e p="amazon.png" t="Include" />
+                <e p="behance.png" t="Include" />
+                <e p="blogger.png" t="Include" />
+                <e p="deviantart.png" t="Include" />
+                <e p="dribbble.png" t="Include" />
+                <e p="dropbox.png" t="Include" />
+                <e p="evernote.png" t="Include" />
+                <e p="facebook.png" t="Include" />
+                <e p="forrst.png" t="Include" />
+                <e p="github.png" t="Include" />
+                <e p="googleplus.png" t="Include" />
+                <e p="jolicloud.png" t="Include" />
+                <e p="last-fm.png" t="Include" />
+                <e p="linkedin.png" t="Include" />
+                <e p="picasa.png" t="Include" />
+                <e p="pintrest.png" t="Include" />
+                <e p="rss.png" t="Include" />
+                <e p="skype.png" t="Include" />
+                <e p="spotify.png" t="Include" />
+                <e p="stumbleupon.png" t="Include" />
+                <e p="tumblr.png" t="Include" />
+                <e p="twitter.png" t="Include" />
+                <e p="vimeo.png" t="Include" />
+                <e p="wordpress.png" t="Include" />
+                <e p="xing.png" t="Include" />
+                <e p="yahoo.png" t="Include" />
+                <e p="youtube.png" t="Include" />
+              </e>
+              <e p="social2" t="Include">
+                <e p="aim.png" t="Include" />
+                <e p="apple.png" t="Include" />
+                <e p="behance.png" t="Include" />
+                <e p="blogger.png" t="Include" />
+                <e p="cargo.png" t="Include" />
+                <e p="delicious.png" t="Include" />
+                <e p="deviantart.png" t="Include" />
+                <e p="digg.png" t="Include" />
+                <e p="dopplr.png" t="Include" />
+                <e p="dribbble.png" t="Include" />
+                <e p="ember.png" t="Include" />
+                <e p="evernote.png" t="Include" />
+                <e p="facebook.png" t="Include" />
+                <e p="flickr.png" t="Include" />
+                <e p="forrst.png" t="Include" />
+                <e p="github.png" t="Include" />
+                <e p="google.png" t="Include" />
+                <e p="googleplus.png" t="Include" />
+                <e p="gowalla.png" t="Include" />
+                <e p="grooveshark.png" t="Include" />
+                <e p="html5.png" t="Include" />
+                <e p="icloud.png" t="Include" />
+                <e p="lastfm.png" t="Include" />
+                <e p="linkedin.png" t="Include" />
+                <e p="metacafe.png" t="Include" />
+                <e p="mixx.png" t="Include" />
+                <e p="myspace.png" t="Include" />
+                <e p="netvibes.png" t="Include" />
+                <e p="newsvine.png" t="Include" />
+                <e p="orkut.png" t="Include" />
+                <e p="paypal.png" t="Include" />
+                <e p="picasa.png" t="Include" />
+                <e p="pinterest.png" t="Include" />
+                <e p="plurk.png" t="Include" />
+                <e p="posterous.png" t="Include" />
+                <e p="reddit.png" t="Include" />
+                <e p="rss.png" t="Include" />
+                <e p="skype.png" t="Include" />
+                <e p="stumbleupon.png" t="Include" />
+                <e p="technorati.png" t="Include" />
+                <e p="tumblr.png" t="Include" />
+                <e p="twitter.png" t="Include" />
+                <e p="vimeo.png" t="Include" />
+                <e p="wordpress.png" t="Include" />
+                <e p="yahoo.png" t="Include" />
+                <e p="yelp.png" t="Include" />
+                <e p="youtube.png" t="Include" />
+                <e p="zerply.png" t="Include" />
+                <e p="zootool.png" t="Include" />
+              </e>
+              <e p="social_big" t="Include">
+                <e p="amazon_grey.png" t="Include" />
+                <e p="amazon_white.png" t="Include" />
+                <e p="apple_grey.png" t="Include" />
+                <e p="apple_white.png" t="Include" />
+                <e p="delicious_grey.png" t="Include" />
+                <e p="delicious_white.png" t="Include" />
+                <e p="deviantart_grey.png" t="Include" />
+                <e p="deviantart_white.png" t="Include" />
+                <e p="digg_grey.png" t="Include" />
+                <e p="digg_white.png" t="Include" />
+                <e p="dribbble_grey.png" t="Include" />
+                <e p="dribbble_white.png" t="Include" />
+                <e p="facebook_grey.png" t="Include" />
+                <e p="facebook_white.png" t="Include" />
+                <e p="flickr_grey.png" t="Include" />
+                <e p="flickr_white.png" t="Include" />
+                <e p="html5_grey.png" t="Include" />
+                <e p="html5_white.png" t="Include" />
+                <e p="lastfm_grey.png" t="Include" />
+                <e p="lastfm_white.png" t="Include" />
+                <e p="linkedin_grey.png" t="Include" />
+                <e p="linkedin_white.png" t="Include" />
+                <e p="myspace_grey.png" t="Include" />
+                <e p="myspace_white.png" t="Include" />
+                <e p="paypal_grey.png" t="Include" />
+                <e p="paypal_white.png" t="Include" />
+                <e p="rss_grey.png" t="Include" />
+                <e p="rss_white.png" t="Include" />
+                <e p="skype_grey.png" t="Include" />
+                <e p="skype_white.png" t="Include" />
+                <e p="stubleupon_grey.png" t="Include" />
+                <e p="stumbleupon_white.png" t="Include" />
+                <e p="tumblr_grey.png" t="Include" />
+                <e p="tumblr_white.png" t="Include" />
+                <e p="twitter_grey.png" t="Include" />
+                <e p="twitter_white.png" t="Include" />
+                <e p="vimeo_grey.png" t="Include" />
+                <e p="vimeo_white.png" t="Include" />
+                <e p="youtube_grey.png" t="Include" />
+                <e p="youtube_white.png" t="Include" />
+              </e>
+              <e p="social_small" t="Include">
+                <e p="amazon_grey.png" t="Include" />
+                <e p="amazon_white.png" t="Include" />
+                <e p="apple_grey.png" t="Include" />
+                <e p="apple_white.png" t="Include" />
+                <e p="delicious_grey.png" t="Include" />
+                <e p="delicious_white.png" t="Include" />
+                <e p="deviantart_grey.png" t="Include" />
+                <e p="deviantart_white.png" t="Include" />
+                <e p="digg_grey.png" t="Include" />
+                <e p="digg_white.png" t="Include" />
+                <e p="dribbble_grey.png" t="Include" />
+                <e p="dribbble_white.png" t="Include" />
+                <e p="facebook_grey.png" t="Include" />
+                <e p="facebook_white.png" t="Include" />
+                <e p="flickr_grey.png" t="Include" />
+                <e p="flickr_white.png" t="Include" />
+                <e p="html5_grey.png" t="Include" />
+                <e p="html5_white.png" t="Include" />
+                <e p="lastfm_grey.png" t="Include" />
+                <e p="lastfm_white.png" t="Include" />
+                <e p="linkedin_grey.png" t="Include" />
+                <e p="linkedin_white.png" t="Include" />
+                <e p="myspace_grey.png" t="Include" />
+                <e p="myspace_white.png" t="Include" />
+                <e p="paypal_grey.png" t="Include" />
+                <e p="paypal_white.png" t="Include" />
+                <e p="rss_grey.png" t="Include" />
+                <e p="rss_white.png" t="Include" />
+                <e p="skype_grey.png" t="Include" />
+                <e p="skype_white.png" t="Include" />
+                <e p="stubleupon_grey.png" t="Include" />
+                <e p="stumbleupon_white.png" t="Include" />
+                <e p="tumblr_grey.png" t="Include" />
+                <e p="tumblr_white.png" t="Include" />
+                <e p="twitter_grey.png" t="Include" />
+                <e p="twitter_white.png" t="Include" />
+                <e p="vimeo_grey.png" t="Include" />
+                <e p="vimeo_white.png" t="Include" />
+                <e p="youtube_grey.png" t="Include" />
+                <e p="youtube_white.png" t="Include" />
+              </e>
+            </e>
+            <e p="logo-footer-menu.png" t="Include" />
+            <e p="logo.png" t="Include" />
+            <e p="logos" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="10.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.png" t="Include" />
+              <e p="6.png" t="Include" />
+              <e p="7.png" t="Include" />
+              <e p="8.png" t="Include" />
+              <e p="9.png" t="Include" />
+            </e>
+            <e p="parallax-slider" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="css3.png" t="Include" />
+              <e p="html5.png" t="Include" />
+              <e p="responsive.png" t="Include" />
+              <e p="twitter.png" t="Include" />
+            </e>
+            <e p="poland.png" t="Include" />
+            <e p="poland2.png" t="Include" />
+            <e p="scroll-top-top.png" t="Include" />
+            <e p="slider" t="Include">
+              <e p="desert.jpg" t="Include" />
+              <e p="mobile_app1.jpg" t="Include" />
+              <e p="slider1.jpg" t="Include" />
+              <e p="slider2.jpg" t="Include" />
+              <e p="slider3.jpg" t="Include" />
+              <e p="web_app1.jpg" t="Include" />
+            </e>
+            <e p="slider-control-left.png" t="Include" />
+            <e p="slider-control-right.png" t="Include" />
+            <e p="slider.jpg" t="Include" />
+            <e p="team_member.jpg" t="Include" />
+            <e p="testimonials-left-01.png" t="Include" />
+            <e p="testimonials-left-02.png" t="Include" />
+            <e p="testimonials-right-01.png" t="Include" />
+            <e p="testimonials-right-02.png" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AccueilController.cs" t="Include" />
+          <e p="ClassementsController.cs" t="Include" />
+          <e p="ClubsController.cs" t="Include" />
+          <e p="JoueursController.cs" t="Include" />
+          <e p="MatchsController.cs" t="Include" />
+          <e p="SchemasRencontresController.cs" t="Include" />
+          <e p="SeriesController.cs" t="Include" />
+          <e p="SexesController.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="Configuration.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Classements.cs" t="Include" />
+          <e p="Clubs.cs" t="Include" />
+          <e p="Context.cs" t="Include" />
+          <e p="Joueurs.cs" t="Include" />
+          <e p="Matchs.cs" t="Include" />
+          <e p="Rencontres.cs" t="Include" />
+          <e p="SchemasRencontres.cs" t="Include" />
+          <e p="Series.cs" t="Include" />
+          <e p="Sexes.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="roslyn" t="Include" />
+        <e p="Rotativa" t="Include">
+          <e p="wkhtmltopdf.exe" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="carousel.js" t="Include" />
+          <e p="custom.js" t="Include" />
+          <e p="flexslider.js" t="Include" />
+          <e p="jquery-1.10.2-vsdoc.js" t="Include" />
+          <e p="jquery-1.10.2.js" t="Include" />
+          <e p="jquery-1.10.2.min.js" t="Include" />
+          <e p="jquery-1.10.2.min.map" t="Include" />
+          <e p="jquery.cslider.js" t="Include" />
+          <e p="jquery.gmap.min.js" t="Include" />
+          <e p="jquery.unobtrusive-ajax.js" t="Include" />
+          <e p="jquery.unobtrusive-ajax.min.js" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="slider.js" t="Include" />
+        </e>
+        <e p="TennisTableASP.csproj" t="IncludeRecursive" />
+        <e p="ViewModels" t="Include">
+          <e p="ClassementsViewModel.cs" t="Include" />
+          <e p="ClubsViewModel.cs" t="Include" />
+          <e p="JoueursViewModel.cs" t="Include" />
+          <e p="MatchsViewModel.cs" t="Include" />
+          <e p="SchemasRencontresModel.cs" t="Include" />
+          <e p="SeriesViewModel.cs" t="Include" />
+          <e p="SexesViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="Accueil" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Classements" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Clubs" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Joueurs" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Matchs" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Impression.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Rencontres" t="Include" />
+          <e p="SchemasRencontres" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Series" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Sexes" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="DeleteList.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="EditList.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Extension.cs" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="TennisTableASP.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

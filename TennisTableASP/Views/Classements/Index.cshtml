@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TennisTableASP.Models.Classements>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Classements";
+}
+<p>
+    @Html.ActionLink("Créer un classement", "Create", null, htmlAttributes: new { @class = "btn btn-succes btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassementId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Classement)
+        </th>
+        <th></th>
+    </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassementId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Classement)
+            </td>
+            <td>
+                @Html.ActionLink("Éditer", "Edit", new {id = item.ClassementId}, htmlAttributes: new {@class = "btn btn-succes btn-small" })
+                @Html.ActionLink("Supprimer", "Delete", new {id = item.ClassementId}, htmlAttributes: new { @class = "btn btn-succes btn-small" })
+            </td>
+        </tr>
+    }
+</table>

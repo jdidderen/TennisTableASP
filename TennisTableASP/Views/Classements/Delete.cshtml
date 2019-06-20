@@ -1,0 +1,21 @@
+﻿@model TennisTableASP.Models.Classements
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Classements - Suppression";
+}
+
+<h3>Êtes-vous sur de vouloir supprimer cette entrée ?</h3>
+<dl class="dl-horizontal">
+    <dt>@Html.DisplayNameFor(model => model.ClassementId)</dt>
+    <dd>@Html.DisplayFor(model => model.ClassementId)</dd>
+    <dt>@Html.DisplayNameFor(model => model.Classement)</dt>
+    <dd>@Html.DisplayFor(model => model.Classement)</dd>
+</dl>
+
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+            <div class="actions">
+                <input type="submit" value="Supprimer" class="btn btn-default" />
+            </div>
+        }

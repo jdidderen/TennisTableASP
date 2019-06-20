@@ -1,0 +1,67 @@
+﻿@model IEnumerable<TennisTableASP.Models.Joueurs>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Joueurs";
+}
+    <p>
+        @Html.ActionLink("Créer un joueur", "Create", null, htmlAttributes: new { @class = "btn btn-succes btn-default" })
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.License)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SexeId.Denomination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassementId.Classement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClubId.Nom)
+            </th>
+
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.License)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SexeId.Denomination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassementId.Classement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClubId.Nom)
+            </td>
+            <td>
+                @Html.ActionLink("Éditer", "Edit", new {id = item.JoueurId}, htmlAttributes: new {@class = "btn btn-succes btn-small"})
+                @Html.ActionLink("Supprimer", "Delete", new {id = item.JoueurId}, htmlAttributes: new {@class = "btn btn-succes btn-small"})
+            </td>
+        </tr>
+    }
+    
+    </table>

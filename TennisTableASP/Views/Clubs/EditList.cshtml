@@ -1,0 +1,12 @@
+﻿@model TennisTableASP.ViewModels.ClubsViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Clubs - Édition";
+}
+
+    @using (Html.BeginForm("ListEdit", "Clubs"))
+    {
+        @Html.Partial("List")
+        <input type="submit" value="Éditer" class="btn btn-succes btn-default"/>
+    }

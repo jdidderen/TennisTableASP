@@ -1,0 +1,140 @@
+﻿@model TennisTableASP.Models.Matchs
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Matchs - Suppression";
+}
+
+<h3>Êtes-vous sur de vouloir supprimer cette entrée ?</h3>
+        <h4>Matchs</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ClubVe.Indice)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ClubVe.Indice)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ClubVr.Indice)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ClubVr.Indice)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVe1.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVe1.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVe2.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVe2.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVe3.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVe3.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVe4.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVe4.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVr1.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVr1.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVr2.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVr2.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVr3.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVr3.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JVr4.Nom)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JVr4.Nom)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Serie.Denomination)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Serie.Denomination)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.NumMatch)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NumMatch)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HeureDebut)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HeureDebut)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HeureFin)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HeureFin)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+
+            <div class="actions">
+                <input type="submit" value="Supprimer" class="btn btn-default" />
+            </div>
+        }

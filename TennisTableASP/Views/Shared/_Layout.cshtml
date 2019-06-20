@@ -1,0 +1,168 @@
+﻿@using TennisTableASP.Views.Shared
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="~/Content/css/bootstrap-responsive.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/hover.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/icons-color.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/icons.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/parallax-slider.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/social-icons.css" />
+    <link type="text/css" rel="stylesheet" href="~/Content/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>    
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/flexslider.js"></script>
+    <script src="~/Scripts/carousel.js"></script>
+    <script src="~/Scripts/jquery.cslider.js"></script>
+    <script src="~/Scripts/slider.js"></script>
+    <script defer="defer" src="~/Scripts/custom.js"></script>
+    <title>@ViewBag.Title</title>
+    @RenderSection("head", required: false)
+</head>
+<body>
+    <!--start: Header -->
+    <header>
+
+        <!--start: Container -->
+        <div class="container">
+
+            <!--start: Row -->
+            <div class="row">
+
+                <!--start: Logo -->
+                <div class="logo span2">
+
+                    <a class="brand" href="#"><img src="~/Content/Images/logo.png" alt="Logo"></a>
+
+                </div>
+                <!--end: Logo -->
+                <!--start: Navigation -->
+                <div class="span10">
+
+                    <div class="navbar navbar-inverse">
+                        <div class="navbar-inner">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav">
+                                    <li class="@Url.MakeActive("Accueil")">@Html.ActionLink("Accueil","Index","Accueil")</li>
+                                    <li class="dropdown @Url.MakeActive("Joueurs")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Joueurs<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Liste", "Index", "Joueurs")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Joueurs")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Joueurs")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Joueurs")</li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown @Url.MakeActive("Clubs")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clubs<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Liste", "Index", "Clubs")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Clubs")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Clubs")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Clubs")</li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown @Url.MakeActive("Classements")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classements<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Liste", "Index", "Classements")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Classements")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Classements")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Classements")</li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown @Url.MakeActive("Matchs")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matchs<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Liste", "Index", "Matchs")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Matchs")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Matchs")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Matchs")</li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown @Url.MakeActive("Series")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Séries<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>@Html.ActionLink("Liste", "Index", "Series")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Series")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Series")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Series")</li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown @Url.MakeActive("Sexes") @Url.MakeActive("SchemasRencontres")">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Autres<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-header">Sexes</li>
+                                            <li>@Html.ActionLink("Liste", "Index", "Sexes")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "Sexes")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "Sexes")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "Sexes")</li>
+                                            <li class="divider"></li>
+                                            <li class="nav-header">Schémas des rencontres</li>
+                                            <li>@Html.ActionLink("Liste", "Index", "SchemasRencontres")</li>
+                                            <li>@Html.ActionLink("Créer", "Create", "SchemasRencontres")</li>
+                                            <li>@Html.ActionLink("Éditer", "EditList", "SchemasRencontres")</li>
+                                            <li>@Html.ActionLink("Supprimer", "DeleteList", "SchemasRencontres")</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end: Navigation -->
+
+            </div>
+            <!--end: Row -->
+
+        </div>
+        <!--end: Container-->
+
+    </header>
+    <!--end: Header-->
+    <!--start: Wrapper-->
+    <div id="wrapper">
+
+        <!--start: Container -->
+        <div class="container">
+            <div class="title"><h3>@ViewBag.Title</h3></div>
+            <div class="input">
+                @RenderBody()
+            </div>
+            <hr>
+        </div>
+        <!--end: Container-->
+
+    </div>
+    <!-- end: Wrapper  -->
+    <!-- start: Copyright -->
+    <div id="copyright">
+
+        <!-- start: Container -->
+        <div class="container">
+
+            <p>
+                &copy; 2013, creativeLabs. <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster in Poland <img src="~/Content/Images/poland2.png" alt="Poland" style="margin-top:-4px">
+            </p>
+
+        </div>
+        <!-- end: Container  -->
+
+    </div>
+</body>
+</html>

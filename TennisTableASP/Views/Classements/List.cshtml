@@ -1,0 +1,6 @@
+﻿@model TennisTableASP.ViewModels.ClassementsViewModel
+
+<div class="GroupeForm">
+    @Html.LabelFor(m => m.ClassementChoisi)
+    @Html.DropDownListFor(m => m.ClassementChoisi, Model.ClassementItems)
+</div>

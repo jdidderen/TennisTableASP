@@ -1,0 +1,11 @@
+﻿@model TennisTableASP.ViewModels.SeriesViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Séries - Suppression";
+}
+    @using (Html.BeginForm("ListDelete", "Series"))
+    {
+        @Html.Partial("List")
+        <input type="submit" value="Supprimer" class="btn btn-succes btn-default" />
+    }

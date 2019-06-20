@@ -1,0 +1,6 @@
+﻿@model TennisTableASP.ViewModels.MatchsViewModel
+
+<div class="GroupeForm">
+    @Html.LabelFor(m => m.MatchChoisi)
+    @Html.DropDownListFor(m => m.MatchChoisi, Model.MatchItems)
+</div>

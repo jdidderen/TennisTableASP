@@ -1,0 +1,177 @@
+﻿@using System.Text.RegularExpressions
+@model TennisTableASP.ViewModels.MatchsViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Impression</title>
+</head>
+<body>
+    <table width="100%" cellspacing="0">
+        <tr>
+            <td colspan="2">
+                <table width="100%" border="1" cellspacing="0">
+                    <tr>
+                        <td width="33%" height="24">@Html.Raw(Model.Matchs.Serie.Denomination)</td>
+                        <td width="33%">Division @Html.Raw(Model.Matchs.Division)</td>
+                        <td width="33%">@Html.Raw(Model.Matchs.NumMatch)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table width="100%" border="1" cellspacing="0">
+                    <tr>
+                        <td width="50%" >@Html.Raw(Model.Matchs.ClubVe.Nom +" "+ Model.Matchs.LettreVisite)</td>
+                        <td width="50%" class="rT">@Html.Raw(Model.Matchs.ClubVr.Nom + " " + Model.Matchs.LettreVisiteur)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table width="100%" cellspacing="0">
+                    <tr>
+                        <td width="50%">
+                            <table width="100%" border="1" cellspacing="0">
+                                <tr >
+                                    <td width="20%">1</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVe1.Nom+" "+ Model.Matchs.JVe1.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVe1.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">2</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVe2.Nom + " " + Model.Matchs.JVe2.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVe2.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">3</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVe3.Nom + " " + Model.Matchs.JVe3.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVe3.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">4</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVe4.Nom + " " + Model.Matchs.JVe4.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVe4.ClassementId.Classement)</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="50%">
+                            <table width="100%" border="1" cellspacing="0">
+                                <tr >
+                                    <td width="20%">1</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVr1.Nom + " " + Model.Matchs.JVr1.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVr1.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">2</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVr2.Nom + " " + Model.Matchs.JVr2.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVr2.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">3</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVr3.Nom + " " + Model.Matchs.JVr3.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVr3.ClassementId.Classement)</td>
+                                </tr>
+                                <tr >
+                                    <td width="20%">4</td>
+                                    <td width="60%">@Html.Raw(Model.Matchs.JVr4.Nom + " " + Model.Matchs.JVr4.Prenom)</td>
+                                    <td width="20%">@Html.Raw(Model.Matchs.JVr4.ClassementId.Classement)</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="1" cellspacing="0">
+                    <thead>
+                    <tr>
+                        <th>Joueur visité</th>
+                        <th>Joueur visiteur</th>
+                        <th colspan="2">Set 1</th>
+                        <th colspan="2">Set 2</th>
+                        <th colspan="2">Set 3</th>
+                        <th colspan="2">Set 4</th>
+                        <th colspan="2">Set 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var x in Model.ListeRencontres)
+                    {
+                        <tr id="@x.Sr.Ordre">
+                            @switch (x.Sr.JoueurVisite)
+                            {
+                                case 1:
+                                    <td>@Html.Raw(Model.Matchs.JVe1.Nom + " " + Model.Matchs.JVe1.Prenom)</td>
+                                    break;
+                                case 2:
+                                    <td>@Html.Raw(Model.Matchs.JVe2.Nom +" "+ Model.Matchs.JVe2.Prenom)</td>
+                                    break;
+                                case 3:
+                                    <td>@Html.Raw(Model.Matchs.JVe3.Nom + " " +Model.Matchs.JVe3.Prenom)</td>
+                                    break;
+                                case 4:
+                                    <td>@Html.Raw(Model.Matchs.JVe4.Nom + " " + Model.Matchs.JVe4.Prenom)</td>
+                                    break;
+                            }
+                            @switch (x.Sr.JoueurVisiteur)
+                            {
+                                case 1:
+                                    <td>@Html.Raw(Model.Matchs.JVr1.Nom +" "+ Model.Matchs.JVr1.Prenom)</td>
+                                    break;
+                                case 2:
+                                    <td>@Html.Raw(Model.Matchs.JVr2.Nom +" "+ Model.Matchs.JVr2.Prenom)</td>
+                                    break;
+                                case 3:
+                                    <td>@Html.Raw(Model.Matchs.JVr3.Nom + " " + Model.Matchs.JVr3.Prenom)</td>
+                                    break;
+                                case 4:
+                                    <td>@Html.Raw(Model.Matchs.JVr4.Nom+" "+ Model.Matchs.JVr4.Prenom)</td>
+                                    break;
+                            }
+
+                            @{string[] scores = null;
+                                if (x.Score != null)
+                                {
+                                    scores = Regex.Split(x.Score, @"\D+");
+                                }
+                            }
+                            @for (int cpt = 0; cpt < 10; cpt++)
+                            {
+                                if (scores != null && cpt < scores.Length && scores[cpt].Length != 0)
+                                {
+                                    <td>@Html.Raw(scores[cpt])</td>
+
+                                }
+                                else
+                                {
+                                    <td>0</td>
+                                }
+                            }
+                        </tr>
+                    }
+                    </tbody>                  
+                </table>
+            </td>
+    
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" border="1" cellspacing="0">
+                    <tr>
+                        <td width="33%" style="height: 100px; vertical-align: top;">@Html.Raw("Signature du capitaine visité: " + Model.Matchs.CapitaineVe.Nom + " " + Model.Matchs.CapitaineVe.Prenom)</td>
+                        <td width="33%" style="height: 100px; vertical-align: top;">@Html.Raw("Signature du capitaine visiteur: " + Model.Matchs.CapitaineVr.Nom + " " + Model.Matchs.CapitaineVr.Prenom)</td>
+                        <td width="33%" style="height: 100px; vertical-align: top;">@Html.Raw("Signature du juge arbitre: " + Model.Matchs.JugeArbitre)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

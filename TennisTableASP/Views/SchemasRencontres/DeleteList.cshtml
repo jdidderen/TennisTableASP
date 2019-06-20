@@ -1,0 +1,11 @@
+﻿@model TennisTableASP.ViewModels.SchemasRencontresViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Schémas des rencontres - Suppression";
+}
+    @using (Html.BeginForm("ListDelete", "SchemasRencontres"))
+    {
+        @Html.Partial("List")
+        <input type="submit" value="Supprimer" class="btn btn-succes btn-default" />
+    }

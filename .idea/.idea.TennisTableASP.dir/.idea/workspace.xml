@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6dd30eb3-942d-4623-b960-be500355a1ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP.dir/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TennisTableASP/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/TennisTableASP/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/TennisTableASP/v14/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/TennisTableASP/v14/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/config/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/App_Browsers/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/App_Browsers/qt.browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/App_Data/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/App_Start/RouteConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/App_Start/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ApplicationInsights.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-grey2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-grey3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-k10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-k20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/bg-repeat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/eject.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/glyphicons-mini-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/glyphicons-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/glyphicons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/glyphicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/green/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/green/glyphicons-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/green/glyphicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/amazon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/deviantart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/dropbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/evernote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/forrst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/jolicloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/last-fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/picasa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/pintrest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/spotify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/stumbleupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/tumblr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/xing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/yahoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/aim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/behance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/cargo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/delicious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/deviantart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/digg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/dopplr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/ember.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/evernote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/flickr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/forrst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/googleplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/gowalla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/grooveshark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/icloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/lastfm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/metacafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/mixx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/myspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/netvibes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/newsvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/orkut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/picasa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/pinterest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/plurk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/posterous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/reddit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/stumbleupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/technorati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/tumblr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/yahoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/yelp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/zerply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social2/zootool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/amazon_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/amazon_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/amazon_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/apple_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/apple_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/delicious_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/delicious_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/deviantart_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/deviantart_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/digg_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/digg_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/dribbble_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/dribbble_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/dribbble_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/facebook_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/facebook_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/flickr_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/flickr_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/html5_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/html5_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/lastfm_grey (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/lastfm_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/lastfm_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/linkedin_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/linkedin_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/linkedin_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/myspace_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/myspace_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/myspace_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/paypal_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/paypal_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/rss_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/rss_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/skype_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/skype_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/skype_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/stubleupon_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/stumbleupon_white (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/stumbleupon_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/tumblr_grey (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/tumblr_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/tumblr_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/twitter_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/twitter_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/vimeo_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/vimeo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/youtube_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_big/youtube_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/amazon_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/amazon_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/apple_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/apple_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/delicious_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/delicious_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/deviantart_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/deviantart_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/digg_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/digg_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/dribbble_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/dribbble_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/facebook_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/facebook_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/flickr_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/flickr_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/html5_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/html5_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/lastfm_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/lastfm_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/linkedin_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/linkedin_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/myspace_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/myspace_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/paypal_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/paypal_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/rss_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/rss_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/skype_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/skype_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/stubleupon_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/stumbleupon_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/tumblr_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/tumblr_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/twitter_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/twitter_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/vimeo_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/vimeo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/youtube_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/icons/social_small/youtube_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logo-footer-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/logos/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/1 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/2 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/3 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/4 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/html5 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/responsive (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/parallax-slider/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/poland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/poland2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/scroll-top-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider-control-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider-control-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/desert (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/desert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/mobile_app1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/mobile_app1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/slider1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/slider3 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/web_app1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/slider/web_app1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/team_member.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/testimonials-left-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/testimonials-left-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/testimonials-right-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/Images/testimonials-right-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/BebasNeue-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/BebasNeue-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/BebasNeue-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/BebasNeue-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/Dharma Type Font License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/fonts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/hover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/icons-color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/parallax-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/social-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/AccueilController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/ClassementsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/ClubsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/JoueursController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/MatchsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/SchemasRencontresController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/SeriesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/SexesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Controllers/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Global.asax" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Global.asax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Migrations/Configuration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Migrations/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Classements.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Clubs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Context.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Joueurs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Matchs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Rencontres.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/SchemasRencontres.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Series.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/Sexes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Models/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Properties/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Rotativa/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Rotativa/wkhtmltopdf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery-1.10.2-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.cslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.gmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.unobtrusive-ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.unobtrusive-ajax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.validate-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Scripts/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/TennisTableASP.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/TennisTableASP.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/ClassementsViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/ClubsViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/JoueursViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/MatchsViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/SchemasRencontresModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/SeriesViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/SexesViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/ViewModels/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Accueil/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Accueil/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Classements/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Clubs/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Joueurs/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Impression.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Matchs/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Rencontres/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/SchemasRencontres/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Series/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/DeleteList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/EditList.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Sexes/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Shared/Extension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/Shared/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Views/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Web.Debug.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Web.Release.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/ApplicationInsights.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.Agent.Intercept.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.DependencyCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.DependencyCollector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.PerfCounterCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.ServerTelemetryChannel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.ServerTelemetryChannel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.Web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.WindowsServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.AI.WindowsServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.ApplicationInsights.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Microsoft.Web.Infrastructure.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/Rotativa.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Helpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Helpers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.Deployment.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.Deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/System.Web.Webpages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/TennisTableASP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/TennisTableASP.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/TennisTableASP.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/bin/roslyn/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TempPE/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/TennisTableASP.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/Debug/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/obj/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TennisTableASP/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/EntityFramework.6.1.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/content/App.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/content/Web.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net40/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/EntityFramework.PowerShell.Utility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/EntityFramework.PowerShell.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/EntityFramework.psd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/EntityFramework.psm1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/about_EntityFramework.help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/init.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/EntityFramework.6.1.3/tools/migrate.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/Microsoft.ApplicationInsights.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/dotnet5.4/Microsoft.ApplicationInsights.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/dotnet5.4/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/dotnet5.4/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net40/Microsoft.ApplicationInsights.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net40/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net45/Microsoft.ApplicationInsights.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net45/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net46/Microsoft.ApplicationInsights.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net46/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/net46/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/portable-win81+wpa81/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/uap10.0/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/uap10.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/wp8/Microsoft.ApplicationInsights.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.1.0/lib/wp8/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.2.2.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/lib/net40/Microsoft.AI.Agent.Intercept.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/lib/net45/Microsoft.AI.Agent.Intercept.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.1/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/Microsoft.ApplicationInsights.DependencyCollector.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/content/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/content/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/content/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net40/Microsoft.AI.DependencyCollector.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net40/Microsoft.AI.DependencyCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net45/Microsoft.AI.DependencyCollector.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net45/Microsoft.AI.DependencyCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.DependencyCollector.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/content/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/content/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/content/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/lib/net40/Microsoft.AI.PerfCounterCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/lib/net45/Microsoft.AI.PerfCounterCollector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/Microsoft.ApplicationInsights.Web.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net40/web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/content/net45/web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net40/Microsoft.AI.Web.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net40/Microsoft.AI.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net45/Microsoft.AI.Web.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net45/Microsoft.AI.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.Web.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/Microsoft.ApplicationInsights.WindowsServer.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/Tools/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/Tools/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/content/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/content/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/content/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net40/Microsoft.AI.WindowsServer.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net40/Microsoft.AI.WindowsServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net45/Microsoft.AI.WindowsServer.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net45/Microsoft.AI.WindowsServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/content/ApplicationInsights.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/content/ApplicationInsights.config.transform" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/content/ApplicationInsights.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net40/Microsoft.AI.ServerTelemetryChannel.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net40/Microsoft.AI.ServerTelemetryChannel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net45/Microsoft.AI.ServerTelemetryChannel.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net45/Microsoft.AI.ServerTelemetryChannel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/Content/Web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/Content/Web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/Microsoft.AspNet.Mvc.5.2.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/lib/net45/System.Web.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/lib/net45/System.Web.Mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Mvc.5.2.3/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/Microsoft.AspNet.Razor.3.2.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45 (1)/System.Web.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45 (1)/System.Web.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45 (1)/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45/System.Web.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45/System.Web.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.Razor.3.2.3/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/Content/Web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/Content/Web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/Microsoft.AspNet.WebPages.3.2.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.Helpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.Helpers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Deployment.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/System.Web.WebPages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/build/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/build/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/content/web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/content/web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/tools/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/tools/init.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/tools/uninstall.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/Microsoft.Net.Compilers.1.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/ThirdPartyNotices.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/build/Microsoft.Net.Compilers.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/build/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Net.Compilers.1.0.0/tools/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Web.Infrastructure.1.0.0.0/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/Content/Scripts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/Content/Scripts/jquery.unobtrusive-ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/Content/Scripts/jquery.unobtrusive-ajax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Ajax.3.2.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Microsoft.jQuery.Unobtrusive.Validation.3.2.3.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/Rotativa.1.6.4.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/content/App_Browsers/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/content/App_Browsers/qt.browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/content/Rotativa/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/content/Rotativa/wkhtmltopdf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/lib/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/lib/net40/Rotativa.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Rotativa.1.6.4/lib/net40/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/Scripts/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Tools/common.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Tools/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Tools/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Tools/jquery-1.10.2.intellisense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/Tools/uninstall.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.1.10.2/jQuery.1.10.2.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.3.1.1/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/Content/Scripts/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/Content/Scripts/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/Content/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.11.1/jQuery.Validation.1.11.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jQuery.Validation.1.16.0/desktop.ini" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1188" />
+    <option name="y" value="315" />
+    <option name="width" value="2100" />
+    <option name="height" value="1497" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dd30eb3-942d-4623-b960-be500355a1ae" name="Default Changelist" comment="" />
+      <created>1561056357683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561056357683</updated>
+      <workItem from="1561056360152" duration="246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="246000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

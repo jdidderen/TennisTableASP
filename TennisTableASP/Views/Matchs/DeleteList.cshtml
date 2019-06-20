@@ -1,0 +1,11 @@
+﻿@model TennisTableASP.ViewModels.MatchsViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Matchs - Suppression";
+}
+    @using (Html.BeginForm("ListDelete", "Matchs"))
+    {
+        @Html.Partial("List")
+        <input type="submit" value="Supprimer" class="btn btn-succes btn-default" />
+    }

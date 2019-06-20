@@ -1,0 +1,73 @@
+﻿@model IEnumerable<TennisTableASP.Models.Clubs>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Clubs";
+}
+
+    <p>
+        @Html.ActionLink("Créer un club", "Create", null, htmlAttributes: new { @class = "btn btn-succes btn-default" })
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClubId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Indice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomCourt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodePostal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ville)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClubId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Indice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomCourt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodePostal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ville)
+            </td>
+            <td>
+                @Html.ActionLink("Éditer", "Edit", new {id = item.ClubId}, htmlAttributes: new { @class = "btn btn-succes btn-small" })
+                @Html.ActionLink("Supprimer", "Delete", new {id = item.ClubId}, htmlAttributes: new { @class = "btn btn-succes btn-small" })
+            </td>
+        </tr>
+    }
+    
+    </table>

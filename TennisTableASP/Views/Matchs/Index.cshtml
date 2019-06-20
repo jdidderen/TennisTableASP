@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TennisTableASP.Models.Matchs>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Matchs";
+}    <p>
+        @Html.ActionLink("Créer un match", "Create", null, htmlAttributes: new { @class = "btn btn-succes btn-default" })
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumMatch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClubVe.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClubVr.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serie.Denomination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeureDebut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeureFin)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumMatch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClubVe.Nom)
+                @Html.DisplayText(" ")
+                @Html.DisplayFor(modelItem => item.LettreVisite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClubVr.Nom)
+                @Html.DisplayText(" ") 
+                @Html.DisplayFor(modelItem => item.LettreVisiteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serie.Denomination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeureDebut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeureFin)
+            </td>
+            <td>
+                @Html.ActionLink("Imprimer", "Impression", new { id = item.MatchId }, htmlAttributes: new { @class = "btn btn-succes btn-small" })
+                @Html.ActionLink("Détails", "Details", new { id = item.MatchId }, htmlAttributes: new { @class = "btn btn-succes btn-small" })
+                @Html.ActionLink("Éditer", "Edit", new {id = item.MatchId}, htmlAttributes: new {@class = "btn btn-succes btn-small"})
+                @Html.ActionLink("Supprimer", "Delete", new {id = item.MatchId}, htmlAttributes: new {@class = "btn btn-succes btn-small"})
+            </td>
+        </tr>
+    }
+    </table>

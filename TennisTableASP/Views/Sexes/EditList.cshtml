@@ -1,0 +1,14 @@
+﻿@model TennisTableASP.ViewModels.SexesViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Sexes - Édition";
+}
+
+@using (Html.BeginForm("ListEdit", "Sexes"))
+{
+    @Html.Partial("List")
+    <input type="submit" value="Éditer" class="btn btn-succes btn-default" />
+}
+
+
